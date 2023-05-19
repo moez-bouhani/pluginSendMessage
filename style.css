@@ -18,16 +18,6 @@
     border-radius: 4px;
 }
 
-.stratis-test-plugin-message .alert-success {
-    background-color: #DFF0D8;
-    color: #3C763D;
-}
-
-.stratis-test-plugin-message .alert-danger {
-    background-color: #F2DEDE;
-    color: #A94442;
-}
-
 .required{
     color:red;
 }
