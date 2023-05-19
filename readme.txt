@@ -37,7 +37,7 @@ Aucune configuration supplémentaire n'est requise. Le plugin fonctionne avec le
 
 == Support ==
 
-Si vous rencontrez des problèmes ou si vous avez des questions, n'hésitez pas à contacter notre équipe d'assistance à [mouez.bouhani@gmail.com].
+Si vous rencontrez des problèmes ou si vous avez des questions, n'hésitez pas à contacter  [mouez.bouhani@gmail.com].
 
 == Contributions ==
 
