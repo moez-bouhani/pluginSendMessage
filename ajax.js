@@ -2,8 +2,11 @@ jQuery(function($) {
     // Soumission du formulaire via AJAX
     $('#stratis-test-plugin-form').submit(function(e) {
         e.preventDefault();
-
-        var form = $(this);
+        $("#ajouter_article").html(
+            `<span class="spinner-border spinner-border-sm"  role="status" aria-hidden="true"></span> Ajouter ...`);
+            var formData = new FormData(this);
+            formData.append("ajouter_article", true);
+            var form = $(this);
         var messageDiv = $('#stratis-test-plugin-message');
 
         $.ajax({
@@ -12,6 +15,7 @@ jQuery(function($) {
             data: form.serialize() + '&action=stratis_test_plugin_submit_form',
             dataType: 'json',
             success: function(response) {
+                $("#ajouter_article").text("Ajouter");
                 if (response.success) {
                     form.hide();
                     messageDiv.html('<div class="alert alert-success">Le message a été créé avec succès !</div>');

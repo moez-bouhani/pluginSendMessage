@@ -8,15 +8,6 @@
     border-radius: 4px;
 }
 
-/* .stratis-test-plugin-form input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-} */
-
 /* Styles pour le message */
 .stratis-test-plugin-message {
     margin-top: 10px;
@@ -35,4 +26,8 @@
 .stratis-test-plugin-message .alert-danger {
     background-color: #F2DEDE;
     color: #A94442;
+}
+
+.required{
+    color:red;
 }
