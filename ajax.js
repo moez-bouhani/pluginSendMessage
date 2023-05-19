@@ -18,7 +18,7 @@ jQuery(function($) {
                 $("#ajouter_article").text("Ajouter");
                 if (response.success) {
                     form.hide();
-                    messageDiv.html('<div class="alert alert-success">Le message a été créé avec succès !</div>');
+                    messageDiv.html('<div class="alert alert-success">Votre article a été créé avec succès !</div>');
                 } else {
                     messageDiv.html('<div class="alert alert-danger">' + response.data + '</div>');
                 }
